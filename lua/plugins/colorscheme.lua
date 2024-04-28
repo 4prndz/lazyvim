@@ -37,12 +37,15 @@ return {
       vim.g.everforest_diagnostic_line_highlight = 1
     end,
   },
+  { "marko-cerovac/material.nvim", disable = {
+    background = true,
+  } },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "material-deep-ocean",
     },
   },
 }
